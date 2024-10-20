@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+.profile-header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cover-photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.profile-pic {
+    margin-right: 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+.profile-details h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffffff;
+}
+
+.profile-details p {
+    font-size: 1.2em;
+    color: #000;
+}
+
+.location-school {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.school-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #0CA1A6;
+}
+
+/* Section Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #000;
+    font-size: 2em;
+    border-bottom: 2px solid #0CA1A6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-list div {
+    width: 45%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #0CA1A6;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Experience Section */
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    color: #0CA1A6;
+    font-size: 1.5em;
+}
+
+.experience-item p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Footer (Contact) Section */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-links p {
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid #0CA1A6;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+footer .footer-links p a {
+    color: #0CA1A6;
+    text-decoration: none;
+}
+
+footer .footer-links p a:hover {
+    text-decoration: underline;
+}
